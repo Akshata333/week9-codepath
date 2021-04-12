@@ -16,6 +16,8 @@ The six possible exploits are:
 Vulnerability #1: SQL Injection
 
 The hint provided to us was with a blind ejection example to attempt 'OR SLEEP(5)=0--' at three separate sites (I increased to 10 for effect). The first challenge was to see that it could be used. I was on the Find a vendor page already, and it continued to take a while to get the injector correctly. Nothing occurred when it was used on the red and green pages. 
+
+
 ![1)SQL](https://user-images.githubusercontent.com/55360840/114341501-f0263e00-9b27-11eb-9e9f-a3a15c1d6189.gif)
 
 
